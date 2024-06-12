@@ -2,6 +2,7 @@
 
 suite="trixie"
 arr_archs=( "all" "arm64" )
+arch="arm64"
 gpg_home="../gpg-xiaomi-vayu/private/gpg"
 
 ASK() { echo; read -p "$*" answer; }
@@ -46,14 +47,14 @@ fn_gpg_keys_show_short() {
 
 fn_scanpackages() {
     # First copy debs to pool/main
-    for arch in ${arr_archs[@]}; do
+#    for arch in ${arr_archs[@]}; do
 	dpkg-scanpackages --multiversion pool/ \
 	    > dists/"${suite}"/main/binary-"${arch}"/Packages
         cat dists/${suite}/main/binary-"${arch}"/Packages | gzip -9 \
 	    > dists/${suite}/main/binary-"${arch}"/Packages.gz
 	## Remove if exist
         [ -f "packages-"${arch}".db" ] && rm -f packages-"${arch}".db
-    done
+#    done
 }
 
 fn_gen_ftp_archive() {
@@ -76,6 +77,7 @@ fn_sign_all() {
 #fn_gpg_keys_show_short
 
 #fn_mk_dirs
+#exit
 #
 ASK "Rescan and sign the repo? [ y|n ]: "
 [ "${answer}" != "y" ] && exit
