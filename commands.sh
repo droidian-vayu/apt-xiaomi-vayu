@@ -47,14 +47,14 @@ fn_gpg_keys_show_short() {
 
 fn_scanpackages() {
     # First copy debs to pool/main
-#    for arch in ${arr_archs[@]}; do
+    for arch in ${arr_archs[@]}; do
 	dpkg-scanpackages --multiversion pool/ \
 	    > dists/"${suite}"/main/binary-"${arch}"/Packages
         cat dists/${suite}/main/binary-"${arch}"/Packages | gzip -9 \
 	    > dists/${suite}/main/binary-"${arch}"/Packages.gz
 	## Remove if exist
         [ -f "packages-"${arch}".db" ] && rm -f packages-"${arch}".db
-#    done
+    done
 }
 
 fn_gen_ftp_archive() {
@@ -75,16 +75,18 @@ fn_sign_all() {
 #fn_gpg_keys_show
 #fn_gpg_keys_show_long
 #fn_gpg_keys_show_short
-
-#fn_mk_dirs
-#exit
-#
-ASK "Rescan and sign the repo? [ y|n ]: "
-[ "${answer}" != "y" ] && exit
-. ${gpg_home}/key-ids.sh
-fn_scanpackages
-fn_gen_ftp_archive
-fn_sign_all
-
 #fn_apt_list_config
 #fn_apt_gpg_pub_download
+
+[ "$1" == "mkdirs" ] && fn_mk_dirs && exit 0
+
+
+if [ "$1" == "rebuild-repo" ]; then
+    ASK "Rescan and sign the repo? [ y|n ]: "
+    [ "${answer}" != "y" ] && exit
+    . ${gpg_home}/key-ids.sh
+    fn_scanpackages
+    fn_gen_ftp_archive
+    fn_sign_all
+fi
+
