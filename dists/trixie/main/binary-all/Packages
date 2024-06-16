@@ -6,7 +6,7 @@ Section: metapackages
 Maintainer: vacuumbeef
 Installed-Size: 9
 Depends: adaptation-hybris-api30-phone, adaptation-vayu-configs, wlr-randr, droidian-camera, gstreamer1.0-tools
-Filename: pool/main/adaptation-droidian-vayu_0.1+4_all.deb
+Filename: pool/trixie/main/binary-all/adaptation-droidian-vayu_0.1+4_all.deb
 Size: 2088
 MD5sum: f421b5abd0db96517d296b8b2ac71301
 SHA1: e992dd8dde4e45f9f761afa09cabe289758c817a
@@ -24,7 +24,7 @@ Source: adaptation-droidian-vayu
 Maintainer: vacuumbeef
 Installed-Size: 105
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: pool/main/adaptation-vayu-configs_0.1+4_all.deb
+Filename: pool/trixie/main/binary-all/adaptation-vayu-configs_0.1+4_all.deb
 Size: 11108
 MD5sum: 27df89d8f9a5327c53ae101a6f891a2b
 SHA1: fb0de4649fe0a9d2e65f3304f8b36e53352013ff
@@ -37,7 +37,7 @@ Architecture: all
 Version: 0.4.0
 Maintainer: vacuumbeef
 Depends: libgtk-3-0, libgtk-layer-shell0
-Filename: pool/main/eww-0.4.0-1_all.deb
+Filename: pool/trixie/main/binary-all/eww-0.4.0-1_all.deb
 Size: 4008648
 MD5sum: 75cf81178a094dfc8985f2a1e2edc34b
 SHA1: 1c74865c34e2046f3685e4b85b5293c23a9b060d
@@ -51,7 +51,7 @@ Architecture: all
 Version: 0.1
 Maintainer: vacuumbeef
 Depends: rofi-wayland, lisgd, eww, wtype, roboto-mono-nerd, libnotify-bin
-Filename: pool/main/phosh-overlay-gestures-0.1-1_all.deb
+Filename: pool/trixie/main/binary-all/phosh-overlay-gestures-0.1-1_all.deb
 Size: 3444
 MD5sum: c0dc580d0b4be2554d456f6047436876
 SHA1: c0412f4850f1058b0951d2afc8f42de595ac6b1b
@@ -63,7 +63,7 @@ Package: roboto-mono-nerd
 Architecture: all
 Version: 1
 Maintainer: vacuumbeef
-Filename: pool/main/roboto-mono-nerd-0_all.deb
+Filename: pool/trixie/main/binary-all/roboto-mono-nerd-0_all.deb
 Size: 2941048
 MD5sum: 75779dd5e8f08339d7650b5e0a54f587
 SHA1: bb9fa6dab7828c22f221009e47ab337302f1a5c3
@@ -77,7 +77,7 @@ Version: 1.7.5
 Maintainer: vacuumbeef
 Depends: libgtk-3-0, libxcb-ewmh2, libxcb-cursor0, libstartup-notification0
 Conflicts: rofi, rofi-dev
-Filename: pool/main/rofi-wayland-1.7.5-1_all.deb
+Filename: pool/trixie/main/binary-all/rofi-wayland-1.7.5-1_all.deb
 Size: 415304
 MD5sum: 239eed00a6d12ca07af81f1b6ea8cae3
 SHA1: f71b57ae7520a67ead2366f081c304a7c3a130de

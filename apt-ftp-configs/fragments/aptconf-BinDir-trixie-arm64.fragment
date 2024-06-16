@@ -1,0 +1,5 @@
+BinDirectory "dists/trixie/main/binary-arm64" {
+  Packages "dists/trixie/main/binary-arm64/Packages";
+  Contents "dists/trixie/Contents-arm64";
+};
+
