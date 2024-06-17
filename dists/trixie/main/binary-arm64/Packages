@@ -146,3 +146,19 @@ SHA512: cd0f2fa209d7bc7bdb04efa04268b557f293adb6698ad7610a0613fbea1950a22584b3c6
 Description: Linux kernel for Xiaomi Pocophone X3 Pro (latest)
  This package depends to the latest kernel image available for the Xiaomi Pocophone X3 Pro.
 
+Package: postmarketos-tweaks
+Architecture: arm64
+Version: 0.13.2+git20240617234445.d87f523.trixie
+Priority: optional
+Section: utils
+Maintainer: berbascum
+Installed-Size: 136
+Depends: meson, python3-yaml, libhandy-1-dev
+Filename: pool/trixie/main/binary-arm64/postmarketos-tweaks_0.13.2+git20240617234445.d87f523.trixie_arm64.deb
+Size: 22640
+MD5sum: 096847ca610e9e10629b68f01e35db36
+SHA1: 0d08607c05e2a4c117c259e9e54a3a2a4834a769
+SHA256: 3ffcba39dbbd47bbde7cf39826b06afda8ba2db5931696119ab13ea62eed42a3
+SHA512: e9b0a5358f8ee9583c5732bf6cd82d5beb5350e8248ff3e9112e2e4b3eedb2cc45be271c820334528252af9747aab283d3b1470b2c347c4e2a7fb0ff8721325f
+Description: PostmarketOS tweaks packaged for Debian
+
