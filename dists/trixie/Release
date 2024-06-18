@@ -1,7 +1,7 @@
 Architectures: all arm64
 Codename: trixie
 Components: main
-Date: Tue, 18 Jun 2024 17:33:13 +0000
+Date: Tue, 18 Jun 2024 20:24:21 +0000
 Description: xiaomi vayu droidian apt repo for release trixie
 Label: vacuumbeef
 Origin: vacuumbeef
@@ -11,7 +11,7 @@ MD5Sum:
  a5aa1ee50a307a9b72978c1fb2f77993              940 Contents-all.gz
  8dd351e13b0c4eb00928692a3da5b7ec            60536 Contents-arm64.bz2
  12c0d77cae881850697c4a6abef684e6            72305 Contents-arm64.gz
- 0109e776ecd7aee16500459950c085d9              210 Release
+ 40e8245df4af49d92e3ed060d5bcd1a9              210 Release
  1a15093731850cf7d04480e2c71e305e             1124 main/Contents-all.bz2
  a5aa1ee50a307a9b72978c1fb2f77993              940 main/Contents-all.gz
  8dd351e13b0c4eb00928692a3da5b7ec            60536 main/Contents-arm64.bz2
@@ -27,7 +27,7 @@ SHA1:
  f6e89b17ddf7ac53fd9cc70b2dc03e9538269597              940 Contents-all.gz
  6859ec154614155213401495bd0837f0fd1414ee            60536 Contents-arm64.bz2
  3e0207a26867745b22b8a605c87f0cf22641f0f0            72305 Contents-arm64.gz
- c3b52f784a7448b39bb28c3832b0430ec5b41cbc              210 Release
+ 80a7980e8d45950df5d916eeb2b411a0c29e8ab5              210 Release
  739166bc4ee29bfe194336aff1e05f190ea565c3             1124 main/Contents-all.bz2
  f6e89b17ddf7ac53fd9cc70b2dc03e9538269597              940 main/Contents-all.gz
  6859ec154614155213401495bd0837f0fd1414ee            60536 main/Contents-arm64.bz2
@@ -43,7 +43,7 @@ SHA256:
  1d2f73bae91823e9e4a64581e86b610efa7f7d7d54f1093254dc363cb40f3503              940 Contents-all.gz
  5f1ff376551fb9db6c4507cc3bccd4bf559520f66779950719f8d75b5b5e618f            60536 Contents-arm64.bz2
  9fe95c347461bd711ef6452513175541cc36f0ccb49576ba357d96c5e94119bb            72305 Contents-arm64.gz
- 23f8c9aec5d62b93083977d702ded995957ce311aaa4fa127bc8fff21b46e646              210 Release
+ cfb52544e63eadd79819c36c83e52420bd394c39efbbb060e54d2b576674ec82              210 Release
  e322cfd7e52726c7daf5c51dd36a27bb21b55f27830dc6a77477a98087b3af02             1124 main/Contents-all.bz2
  1d2f73bae91823e9e4a64581e86b610efa7f7d7d54f1093254dc363cb40f3503              940 main/Contents-all.gz
  5f1ff376551fb9db6c4507cc3bccd4bf559520f66779950719f8d75b5b5e618f            60536 main/Contents-arm64.bz2
@@ -59,7 +59,7 @@ SHA512:
  b0fa41023812b7d35db1da0b9990ed8afa461d63d82739f42aea2eb924257b9f1ded74e87a98a73f37b0622d16150c89c0311c260276c54b57c88638babc56a8              940 Contents-all.gz
  af332f700313a7543a472aa61c9d070f0a218dbfd0ebeee2b07041570909d83edd2cc5d58cab174af9c2b8c95ced228f8c8d51c5654ef9a5e5f3e4a64d7d7b00            60536 Contents-arm64.bz2
  6642579bf87740c5115cd37f2565996e34de9ddfc0ca4d9da3c409e32b5d6e11337d4bdaa776d762adaa1d4fb7d5ae9a298947271e9678204de6aa3d8ea60ff4            72305 Contents-arm64.gz
- 3ecbf3a9037cb81b6a1bca0e807083118cee2b619eb11feb4a7174ce157de288de6b65999d64f38bea001030a491aa5731617d6083843cb2effbf7d46bf43478              210 Release
+ bfac2134c30d6812121ff6cc3e16d3ef14a1e2d61729bbf929d6e7d833336339cb714ddc1aa2099125ea7fded2f34dbebb44f8b80dc78645ddb6f23ddba4df45              210 Release
  104adfb4cef803eb6f654b3df6139d262646f02a4f629523e996bd0107434cd8ef2a48e251a70f87974bdb3c8fc3af07d07f4a75ef01abc6ad0dd47fa5c14f58             1124 main/Contents-all.bz2
  b0fa41023812b7d35db1da0b9990ed8afa461d63d82739f42aea2eb924257b9f1ded74e87a98a73f37b0622d16150c89c0311c260276c54b57c88638babc56a8              940 main/Contents-all.gz
  af332f700313a7543a472aa61c9d070f0a218dbfd0ebeee2b07041570909d83edd2cc5d58cab174af9c2b8c95ced228f8c8d51c5654ef9a5e5f3e4a64d7d7b00            60536 main/Contents-arm64.bz2
