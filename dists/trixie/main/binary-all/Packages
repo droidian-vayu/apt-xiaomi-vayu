@@ -15,6 +15,22 @@ SHA512: a69df8ae2f742c68b527ef6a5b4bec6152974155158c58f31f71916f35053911e3cf39e6
 Description: adapatation-vayu-meta
  vayu api30 adaptation metapackage
 
+Package: adaptation-droidian-vayu
+Architecture: all
+Version: 0.1.5+git20240616212927.2dc0dc9.transition
+Priority: optional
+Section: metapackages
+Maintainer: vacuumbeef
+Installed-Size: 9
+Filename: pool/trixie/main/binary-all/adaptation-droidian-vayu_0.1.5+git20240616212927.2dc0dc9.transition_all.deb
+Size: 2936
+MD5sum: 7da30b425b4eb5536041098945d0f791
+SHA1: 7cd6382097e852f146a2f478d2682953de014de7
+SHA256: a397005592b096cc9c8c67c58573aec85a6a9b7380c8eea28b56dedf10888e3c
+SHA512: 9ba6e14d837f44099711bccd2a97cd277ef6f422fdac9f4f9d4c5fef282aa6a4f03ac4a4b2a1ea7b3e09d735475e0903e89ba36d0c5deb28f9970ddbbc3b09ca
+Description: adaptation vayu deprecated
+ replaced by adaptation-xiaomi-vayu
+
 Package: adaptation-vayu-configs
 Architecture: all
 Version: 0.1+4
@@ -31,6 +47,24 @@ SHA1: fb0de4649fe0a9d2e65f3304f8b36e53352013ff
 SHA256: d60ba497dc0bdcd77b7b17aec85c94ce092aeb12d92be0a99f87c089d3aab68d
 SHA512: f3f8af08e855d2e6c76cac7d8157f360c80e108d7460fa3a196a27c389a8ebd50197620fc84ffda174a52dddeacaa541287d7faf4b181e03e8b75797e0f9d107
 Description: vayu's adaptation configs
+
+Package: adaptation-vayu-configs
+Architecture: all
+Version: 0.1.5+git20240616212927.2dc0dc9.transition
+Priority: optional
+Section: metapackages
+Source: adaptation-droidian-vayu
+Maintainer: vacuumbeef
+Installed-Size: 107
+Depends: dconf-gsettings-backend | gsettings-backend
+Filename: pool/trixie/main/binary-all/adaptation-vayu-configs_0.1.5+git20240616212927.2dc0dc9.transition_all.deb
+Size: 12104
+MD5sum: 314648b3f36d1546df9f286c28dd7011
+SHA1: a48b5fafca679ab739100fef528d22aae54a2478
+SHA256: be272df9bd45edade95b2030f777d18d8051aab066fd35f49570b25e32350181
+SHA512: b7712c4f29ab740df6f3a4d68fda76c37c604066607cdd7d8546283319f8c3edcdef60fd12dcc24a3f6f017e00db197c646abbfa66940a2a913b48ee9ce88f15
+Description: adaptation configs vayu deprecated
+ replaced by adaptation-xiaomi-vayu-configs
 
 Package: eww
 Architecture: all
