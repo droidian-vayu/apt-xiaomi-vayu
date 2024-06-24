@@ -51,36 +51,36 @@ Description: Transition package from old adaptation-droidian-vayu
 
 Package: adaptation-xiaomi-vayu-configs
 Architecture: arm64
-Version: 8+git20240623172538.b9b13ec.droidian
+Version: 8+git20240623215738.7d6fdfa.droidian
 Priority: optional
 Section: metapackages
 Source: adaptation-xiaomi-vayu
 Maintainer: vacuumbeef
 Installed-Size: 132
 Depends: dconf-gsettings-backend | gsettings-backend
-Filename: pool/trixie/main/binary-arm64/adaptation-xiaomi-vayu-configs_8+git20240623172538.b9b13ec.droidian_arm64.deb
-Size: 13560
-MD5sum: fd0f45d26d98b935e49a8d5c3209c7fc
-SHA1: aa99fd019cfc949d01863055ec3b86b054491677
-SHA256: edd14120fc76819acb7e07394ef030b43ab33f3e001696b5bb2809a0b7dd4333
-SHA512: c931e031c22390d554a7fb3ba800ecba19e04d157b31bdea0145d485af90969aaba4ae4f8913cfdac8ced3fde1151bd1afb59fdc6d18b14e1f469472394cfafb
+Filename: pool/trixie/main/binary-arm64/adaptation-xiaomi-vayu-configs_8+git20240623215738.7d6fdfa.droidian_arm64.deb
+Size: 13580
+MD5sum: 34d23a8a14c5d0f1271db5b44b5e9958
+SHA1: d6e99896a7178de9d2bc7e6c86bfce3694efb7f8
+SHA256: d862126fcf17b0b57e38b49432a04e34d381aeae2a1a80d4dc8ea7880c54fb4c
+SHA512: 4154dea8d1f550045255a0add4c1d6421f90b82e5a07c783c58c7d34fee2b8aa9be56e1526d976059bc0b22556b6a2e9db5831175b361d1434ca310c822ec36c
 Description: Droidian adaptation for Xiaomi Pocophone X3 Pro vayu api30 - adaptation configurations
 
 Package: adaptation-xiaomi-vayu
 Architecture: arm64
-Version: 8+git20240623172538.b9b13ec.droidian
+Version: 8+git20240623215738.7d6fdfa.droidian
 Priority: optional
 Section: metapackages
 Maintainer: vacuumbeef
 Installed-Size: 11
 Depends: adaptation-hybris-api30-phone, linux-bootimage-xiaomi-vayu, adaptation-xiaomi-vayu-configs, inotify-tools
 Conflicts: adaptation-droidian-vayu, adaptation-vayu-configs
-Filename: pool/trixie/main/binary-arm64/adaptation-xiaomi-vayu_8+git20240623172538.b9b13ec.droidian_arm64.deb
-Size: 4100
-MD5sum: 3fe7c292587e9a36f0d280fab3f36741
-SHA1: 692b23bd78f5af4dec67063e1780cfc0d280f5d5
-SHA256: c0b6745f1345050096e7ffea1c92d732a74d2db9ac05632bd650847150bb977c
-SHA512: 14bc18e983b066e385888430360b9fa513f3c4f3230c944cf8059b89a40b9e599979d15e416f4a6fcb96fb760016b760fee7981bb0b684acc6f892bd9a67651f
+Filename: pool/trixie/main/binary-arm64/adaptation-xiaomi-vayu_8+git20240623215738.7d6fdfa.droidian_arm64.deb
+Size: 4116
+MD5sum: 059fc187d0ecfece0722b6e48017e786
+SHA1: 9ede9d7a1e5053d6e2cd8001e193889d30f7d475
+SHA256: 289569e63f3ce969c391c141a365f8f67ddedf4bce1ba61fab0d3d636aeba0e9
+SHA512: 7f1bee899a294508990846aaf1e201fd1d51c5dc0fd1b1d63748c591c63a6cbb9409ed1f69027bc124eb561aff990f4e10a273158a236150d8fef0f0ada7ea5f
 Description: Community adaptation for xiaomi-vayu api30 - metapackage
 
 Package: linux-bootimage-4.14-190-xiaomi-vayu
