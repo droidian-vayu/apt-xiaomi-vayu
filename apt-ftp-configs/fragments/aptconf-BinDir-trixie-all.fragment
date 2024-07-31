@@ -1,5 +1,0 @@
-BinDirectory "dists/trixie/main/binary-all" {
-  Packages "dists/trixie/main/binary-all/Packages";
-  Contents "dists/trixie/Contents-all";
-};
-

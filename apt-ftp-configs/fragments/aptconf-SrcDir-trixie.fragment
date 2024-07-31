@@ -1,4 +1,0 @@
-SrcDirectory "dists/trixie/main/source" {
-  Sources "dists/trixie/main/source/Sources";
-};
-

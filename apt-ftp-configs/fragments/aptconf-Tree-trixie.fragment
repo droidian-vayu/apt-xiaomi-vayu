@@ -1,5 +1,0 @@
-Tree "dists/trixie" {
-  Sections "main";
-  Architectures "all" "arm64";
-};
-
