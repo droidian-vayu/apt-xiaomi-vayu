@@ -1,7 +1,7 @@
 Architectures: all arm64
 Codename: testing
 Components: main
-Date: Fri, 02 Aug 2024 17:54:06 +0000
+Date: Fri, 02 Aug 2024 18:43:05 +0000
 Description: xiaomi vayu droidian apt repo for release testing
 Label: droidian-vayu
 Origin: droidian-vayu
@@ -11,7 +11,7 @@ MD5Sum:
  e62ff0123a74adfc6903d59a449cbdb0               40 Contents-all.gz
  0902e5a0182062319472ac442793db1b               28 Contents-arm64.bz2
  e62ff0123a74adfc6903d59a449cbdb0               40 Contents-arm64.gz
- 8fd01a74ae24450dfcce6d9cee653e9e              219 Release
+ 939e28ca8ceffc71b99837a256ed707f              219 Release
  0902e5a0182062319472ac442793db1b               28 main/Contents-all.bz2
  e62ff0123a74adfc6903d59a449cbdb0               40 main/Contents-all.gz
  0902e5a0182062319472ac442793db1b               28 main/Contents-arm64.bz2
@@ -27,7 +27,7 @@ SHA1:
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 Contents-all.gz
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 Contents-arm64.bz2
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 Contents-arm64.gz
- 6e5180fd33dde11870a23134ca8226ccf939a57f              219 Release
+ b60007ad8bc724dd97c6986a8f49ed0eff63392b              219 Release
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 main/Contents-all.bz2
  e3f4c61a216c2c9613cd3bdd1420dde095b296b3               40 main/Contents-all.gz
  dcddcbc89128ee4d36fe584b2a982131e8f70d53               28 main/Contents-arm64.bz2
@@ -43,7 +43,7 @@ SHA256:
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 Contents-all.gz
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 Contents-arm64.bz2
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 Contents-arm64.gz
- 0031f86fdadce1482f0f6ffb26df1c7a72efc8afbcd2f0f82d857f062622cc32              219 Release
+ 6aadb4ee6fa5f10b67d74fa23a62074cba792e386e82f22519c8e44dd76e06bd              219 Release
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 main/Contents-all.bz2
  e7ab72b8f37c7c9c9f6386fb8e3dfa40bf6fe4b67876703c5927e47cb8664ce4               40 main/Contents-all.gz
  f43ffa97e8272d81422a41aa2b1599c418bd3c361fe23ebdd391676379dfe771               28 main/Contents-arm64.bz2
@@ -59,7 +59,7 @@ SHA512:
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 Contents-all.gz
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 Contents-arm64.bz2
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 Contents-arm64.gz
- 441ae77324eeebf54f4a4c5ffe563f976e8f305784bf450974f605346d21aaaa68207f110d657ffab32aaf73cb76466298ffdb363b0e193495422362915e7f3a              219 Release
+ 85b83fecd836bdc27f0338f575907faebe48e996560f18b3d0580a8cce97b1f9ecdb09cffec4e847a4c0e0e4a914a5af8404bca87347f1544f53b5b9224a78c2              219 Release
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 main/Contents-all.bz2
  4837cb0c747b88cd66d2e8a7cb7fe2808a8fd9f967e467810a0dddfee9befdef8891f3be5c26e319d2ac8a869cb9e39d5ba1fb484db73231cec9fd66d1d5df33               40 main/Contents-all.gz
  37a17e9952eed92a1dfa196475721d1f8a96a58aac1a17e46a5df6b466a26655f151cc0b3b3005e442cd01feadf28ca095df66df47b7582992e1ceacc2cc632f               28 main/Contents-arm64.bz2
