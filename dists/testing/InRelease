@@ -4,7 +4,7 @@ Hash: SHA512
 Architectures: all arm64
 Codename: testing
 Components: main
-Date: Wed, 27 Nov 2024 11:25:21 +0000
+Date: Wed, 27 Nov 2024 11:29:04 +0000
 Description: xiaomi vayu droidian apt repo for release testing
 Label: droidian-vayu
 Origin: droidian-vayu
@@ -14,7 +14,7 @@ MD5Sum:
  bc81d1f0ca120ca0ee7c9d598f328c29              256 Contents-all.gz
  ada27f9051dbc73af47db761b16e29e0            60766 Contents-arm64.bz2
  cf436f3785912986e126d315ce1c6e66            72559 Contents-arm64.gz
- f4c4dc72be73ce9ad36edff7c7fbb265              219 Release
+ 4707ca08fc16cf54f56134f2e77c5d07              219 Release
  360d2900d6b2ed2d24bb75d86d294950              290 main/Contents-all.bz2
  bc81d1f0ca120ca0ee7c9d598f328c29              256 main/Contents-all.gz
  ada27f9051dbc73af47db761b16e29e0            60766 main/Contents-arm64.bz2
@@ -30,7 +30,7 @@ SHA1:
  a9112f785b673f25348d04422a0f80daad6e5bba              256 Contents-all.gz
  6cc443f9d93ae65f61bd5f426e916fd3d3329f05            60766 Contents-arm64.bz2
  5009a01a94d1f3553ebcf0c9c3cf55632495e4cb            72559 Contents-arm64.gz
- f96cd26b574d49bba86163bed43dc75c14da71c6              219 Release
+ 08056fa224111fc3db341c6eb0a46165e2e298ec              219 Release
  d065f3eb6d77535ebc0ca3de8b16a29b520890d8              290 main/Contents-all.bz2
  a9112f785b673f25348d04422a0f80daad6e5bba              256 main/Contents-all.gz
  6cc443f9d93ae65f61bd5f426e916fd3d3329f05            60766 main/Contents-arm64.bz2
@@ -46,7 +46,7 @@ SHA256:
  43308c05ab0fcbdfab83b17c9f289dfca64195c6d975dd72270f1c342aa09bba              256 Contents-all.gz
  8bb972957f7860c65000031927a331cc8590ece716b85035100e7285841c6d65            60766 Contents-arm64.bz2
  534fa32f7552a508264ad203396ff2039736de4b8b57406022f1a135ebc95f57            72559 Contents-arm64.gz
- 24979c5be6a02671704c8bc176691bf774f18dbb5a983dffef8fc1cb27778968              219 Release
+ 3408cfc3f664fac2278ddf68b5c2ea090661520c7872b832d7b0fc95a61a1df4              219 Release
  936620b82e775ff5a11d8d569515b2c338672e8640a8e2d3a02e5bdc7cb8ea2f              290 main/Contents-all.bz2
  43308c05ab0fcbdfab83b17c9f289dfca64195c6d975dd72270f1c342aa09bba              256 main/Contents-all.gz
  8bb972957f7860c65000031927a331cc8590ece716b85035100e7285841c6d65            60766 main/Contents-arm64.bz2
@@ -62,7 +62,7 @@ SHA512:
  6720652823768c943a5192a4c5f9c626226fad5133e8cd21c46752c84128ab2eb30e0b89ebc5c8c31e7ecfb014da9b2fbdd525146f2b46cf99e809c0d5f0fbf2              256 Contents-all.gz
  128dede881749ddfa3e05e2153a7ec679d157bd4a791adb385b2e0ea1ba2c6e9e441562ed5753773cf91cd82ae624dadcbf92998cb8bfad8f1153d14b554cfc8            60766 Contents-arm64.bz2
  6591abab7879aee9e1dacb89869ceaaf16b677cf694a0562d8e282b4370fe6658ed122368272aa6f43a49ff4c12ec74d6ea7e43ccdf8f6f23434e1c9bc904da0            72559 Contents-arm64.gz
- 11c846e4427640975b2dbff7defd2a6dc14296f5f228eb2fd1e5ebcff8d77875b4540856a1e6d9840a76903ca242469b6484a77296e1e61264a5b2a1c4e05d99              219 Release
+ 850005fb87b748f478d213fd8a24c131c08f32238ff44721c947825b77882b10faff90de7e779b411f97e6604afe2da7489c46306692c1bda33b04d575480159              219 Release
  d96a8cda8fb2c8ab0b0df1f3e73bde3fb7ed8683e1ec9ffcb807760a4796e01b193ab9d39ac9b420f55561be049fc5a35d40f54fe8e17e6c33cfeb26d529c251              290 main/Contents-all.bz2
  6720652823768c943a5192a4c5f9c626226fad5133e8cd21c46752c84128ab2eb30e0b89ebc5c8c31e7ecfb014da9b2fbdd525146f2b46cf99e809c0d5f0fbf2              256 main/Contents-all.gz
  128dede881749ddfa3e05e2153a7ec679d157bd4a791adb385b2e0ea1ba2c6e9e441562ed5753773cf91cd82ae624dadcbf92998cb8bfad8f1153d14b554cfc8            60766 main/Contents-arm64.bz2
@@ -75,17 +75,17 @@ SHA512:
  f7b05f4877dbf8a93894f8e32022409c3b9cd03669ae67bb2ccf8b892466eb63978cfdba7b6f5f6d9dbb1e9bf9ff0c7a11ebc6e7581add3b95397b1964a802e6             2737 main/binary-arm64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEETDpvBZYesLjawP9ctV/cIGvaEhcFAmdHAaMACgkQtV/cIGva
-EhcFzA//bUGlcZyeLnIkFROntd6P0PBKB6RHnk98x0iFDykBrlnRRba/oAYoAEkh
-KXvaajwI1CJzYv0fWjLGUTtL9rcHzETBXpH4O+OT8OIt5xBC/GzMfFhyov7efPsz
-ua6c3fZZzzl5+GtkEgJ1YpGIoiqf8rJaN77rOXZDI68/Vjum6JKD1GmMCfGYW00+
-bwxcwaSP3h+HWepsOnxUw2SCh9aNbaTbmNn0LRnoMORi/lTbrrPU9jlgXLAqlqJp
-Mt0TC3Nher+zlrN/rAakmrSL8D8rrALndAh08NX7p5WRazw2H3wgFgm/HXQnLJtS
-rKsrWYSWv7OEsRQw8nPXTokRTB7uOsQm2hwPSgYQjnXlH3LL+Rqo3RIHQV6Y5be1
-y0gj/baHFK78mh7sdJUFzYUsU7ny4o7XaCcRF3Uh2SSbNZAJ/MdynoI91OL58RUs
-/mjeT2QKJAZfinR0LbiMXQjmrg1kOiOyo87eu3LgjYTA9BBiwOkayEq4MfWprbpb
-k/YYYVYvWHdcTOKm5wF2lQ6wg2OtNfiEaipJ+VUOXe23GslvA/uPX/8K/TdnJMI5
-f5L8kZxudIjyHcehalEO925jkaVw6s4i9T8b8tQ00k2Zwi52thJNUOlkMrQYJHT4
-xrI65rd2qxbC26dbV/FCGdywbXnC2xYZKlJn4ebvGDpkYQg7bCc=
-=m89J
+iQIzBAEBCgAdFiEETDpvBZYesLjawP9ctV/cIGvaEhcFAmdHAoIACgkQtV/cIGva
+EhdmRg//ax+/ZzSftiIAn43EkUiR2G5dCvic7kWgeHR0mzq40cwZS+L7UzUzJyPk
+iGC/QhDc6jpWBoNZb8mHzfSrA4DYAtRvBDOB73NeUtVO6E/rvrreVEd4VTfw92r3
+IeiirluX5DCgMnPeYScyChpr0lHxjQCikRN+rF0vzlJLvQ1J1jMO7tE9nwvTfgKj
+tQuzIc+2Llt6KkHtfE09XJIBFrnFg6dIe/oKoPY/5eMpnrO0u6+M+wqoeo5TmNv0
+472c7M44mXrfjYSw1KMvZvt2jqkDbLZmyFp8yq4jewFsl7uNG3jN+nYyF5Qzxkot
+EFPPlZLovrqJ7E6oqkttdUj1FHl7nzk4iYORQWg9YWCYwgZDxezw0y/gDDHcm15b
+nfLKPEdAE03j4nVz2xzIUumOMjli6zfkGT4jqil+iARH791NwuBvdJt3rznHSN7V
+Qe+87y7Ru//ooYqFGPHTp/XTYb6sxD8xuaFRoYMlMH5srXaOXnVoCXuqNIAnxjju
+bFdlPoXAtkJpO5e1nK8MbYhLlKhj3oNtvEctfzh/2MNNMVziflH54yWlChdW2ntk
+5XY1UnHmYRPgTcEj/K+KFYwV8blDacVtDNlxieCXpqAtzYfq/diNDmT9jZNKLpZV
+rOPamevnatmpLXtGB9pW+KPwceSpLtDvOa7vsTJSvwGrtzvNADQ=
+=dmQk
 -----END PGP SIGNATURE-----

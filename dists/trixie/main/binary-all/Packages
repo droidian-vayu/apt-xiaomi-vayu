@@ -190,3 +190,20 @@ SHA256: f6cb9e04af3b6483b49f5cdf1716da488880d341b6714f6a3b01f24f1df05b24
 SHA512: 0e41afe0f26c59ea0e68897a2b218c2777425995fbe34edfa1ccd3963cb4b89b25f8b2c06e9e564e46326a45f19b676641c88ddc3bafb70aa4ea5b113858558b
 Description: APT keyrings for droidian-vayu Github apt repo
 
+Package: vayu-apt-keyrings
+Architecture: all
+Version: 3+git20241127121905.bde6b96.trixie
+Priority: optional
+Section: misc
+Maintainer: droidian-vayu Github Org
+Installed-Size: 17
+Pre-Depends: apt
+Depends: ca-certificates
+Filename: pool/trixie/main/binary-all/vayu-apt-keyrings_3+git20241127121905.bde6b96.trixie_all.deb
+Size: 3860
+MD5sum: 69d892589b34dde5d5fd154aeaca93c8
+SHA1: 35b6dcdf420da8752ce797c36c6ac4fd8c09806c
+SHA256: 30d65da81d2b3ef942a2a28db643c90d8c263310b76a5806cdc074ac1aba1d3c
+SHA512: daebefda8d080a7a2f9cd4aa8faaaf07ba875c086c167874b84cdc9b454063da2cfe154340e7ac2e5988c2981a72bf447f72e9c6446ee99b8a6af6bc6ba5e9d4
+Description: APT keyrings for droidian-vayu Github apt repo
+
