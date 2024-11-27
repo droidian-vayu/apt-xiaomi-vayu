@@ -1,1 +1,1 @@
-deb [arch=arm64,all signed-by=/usr/share/keyrings/vayu.gpg] https://droidian-vayu.github.io/apt-xiaomi-vayu trixie main
+deb [arch=arm64,all signed-by=/usr/share/keyrings/vayu-apt.gpg] https://droidian-vayu.github.io/apt-xiaomi-vayu trixie main
