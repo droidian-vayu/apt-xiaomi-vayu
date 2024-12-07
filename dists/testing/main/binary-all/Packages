@@ -51,3 +51,29 @@ SHA256: f6cb9e04af3b6483b49f5cdf1716da488880d341b6714f6a3b01f24f1df05b24
 SHA512: 0e41afe0f26c59ea0e68897a2b218c2777425995fbe34edfa1ccd3963cb4b89b25f8b2c06e9e564e46326a45f19b676641c88ddc3bafb70aa4ea5b113858558b
 Description: APT keyrings for droidian-vayu Github apt repo
 
+Package: gnome-settings-daemon-common
+Architecture: all
+Version: 47.1-1~git20241207143909.6b6dcc1.fix.backlight.vayu.pre.libdroid
+Priority: optional
+Section: gnome
+Source: gnome-settings-daemon
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Installed-Size: 5190
+Provides: gnome-settings-daemon-schemas (= 47.1-1~git20241207143909.6b6dcc1.fix.backlight.vayu.pre.libdroid)
+Depends: dconf-gsettings-backend | gsettings-backend
+Breaks: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Replaces: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
+Filename: pool/testing/main/binary-arm64/gnome-settings-daemon-common_47.1-1~git20241207143909.6b6dcc1.fix.backlight.vayu.pre.libdroid_all.deb
+Size: 712872
+MD5sum: 9933491d8747ea6cad8aee82386acbad
+SHA1: d17375b6a8b812ffbaeb4bb397d8722e15423278
+SHA256: 92a24ff6fe9628650f90798f8de6bf95e7549702b0ce3581440d4b9cf2a11cdf
+SHA512: 0efcff3ff9614fb440e76f8653c843a645831ea1fdb27f0217c4b8c7c470d4b47b5846f9eeb20a95188dd9b9a1d1129436723cc1ec06e494d793ebcc9d77cace
+Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
+Description: daemon handling the GNOME session settings - common files
+ This package contains GSettings schemas and other architecture-independent
+ files for GNOME Settings Daemon. It is probably not interesting on its own for
+ end users, but packages may depend on this if they only need to read and write
+ settings & don't themselves care if the settings daemon is actually running or
+ not.
+
