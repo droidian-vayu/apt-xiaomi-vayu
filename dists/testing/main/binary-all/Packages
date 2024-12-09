@@ -1,21 +1,21 @@
 Package: gnome-settings-daemon-common
 Architecture: all
-Version: 47.1-1~git20241208232735.66ec272.fix.backlight.vayu
+Version: 47.1-1~git20241209214620.605f24b.fix.backlight.udev.var
 Priority: optional
 Section: gnome
 Source: gnome-settings-daemon
 Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Installed-Size: 5190
-Provides: gnome-settings-daemon-schemas (= 47.1-1~git20241208232735.66ec272.fix.backlight.vayu)
+Installed-Size: 5191
+Provides: gnome-settings-daemon-schemas (= 47.1-1~git20241209214620.605f24b.fix.backlight.udev.var)
 Depends: dconf-gsettings-backend | gsettings-backend
 Breaks: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
 Replaces: gnome-settings-daemon-schemas (<< 3.30.1.2-2~)
-Filename: pool/testing/main/binary-arm64/gnome-settings-daemon-common_47.1-1~git20241208232735.66ec272.fix.backlight.vayu_all.deb
-Size: 713076
-MD5sum: 895495f4da4f009126ddb51050b94170
-SHA1: 734f1ab15d99abbc01d77537f84319b817d7ebc9
-SHA256: c851ec0414bf9fed3734dc176b1f15885e3358cb7f0e673440f70c2d61d4ed7d
-SHA512: a876853c34b55ad357e7ca172afc88ba6c0f06bb43481096a81531f4fd72fba85fdc4052000c1cfb5d421911c9f3b3d60d25a6a808e19e54608f26098448dd51
+Filename: pool/testing/main/binary-arm64/gnome-settings-daemon-common_47.1-1~git20241209214620.605f24b.fix.backlight.udev.var_all.deb
+Size: 713060
+MD5sum: 553546c4c21fad5646375a659aec4aaa
+SHA1: e9ef7038d7051e029ceb282a0a18c7a617c7fc06
+SHA256: 7c582998ff48e70a1211c301e4996de40f56f74924cc100f7c3315ea6afce5c7
+SHA512: 5cef2bb9f92c1ac7639e7c99ac4762137782824e92b15fca8ca69630521b1191491c784a0b9c0826cad85ea6758ed0585e40ca04485b00d76ac12faf67b70b69
 Homepage: https://gitlab.gnome.org/GNOME/gnome-settings-daemon
 Description: daemon handling the GNOME session settings - common files
  This package contains GSettings schemas and other architecture-independent
