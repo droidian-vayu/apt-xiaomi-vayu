@@ -122,24 +122,24 @@ Description: Rofi: A window switcher, run dialog and dmenu replacement - fork wi
 
 Package: vayu-apt-config-testing
 Architecture: all
-Version: 2+git20240731234057.fb95517.trixie
+Version: 3+git20241229234038.2500763.trixie
 Priority: optional
 Section: misc
 Maintainer: droidian-vayu Github Org
 Installed-Size: 20
 Pre-Depends: apt
 Depends: ca-certificates, vayu-apt-keyrings
-Filename: pool/trixie/main/binary-all/vayu-apt-config-testing_2+git20240731234057.fb95517.trixie_all.deb
-Size: 2684
-MD5sum: 41dcdd2a5a09dfaeccd8cdc42a4c00e0
-SHA1: e0eb2739025efc8ef6718c4d5e8f5aabbdba5659
-SHA256: 79c3a6b9e43cfe98cde886f158d546118c24d47b1ee4579b7f4868fafa2a6e7b
-SHA512: e0a2dde3862937072b96bdfd5f88f775114c0436d572cdb39143c8abf782ddfdc1cbb4162f7a2126301808d1f0fbc6ae809a30e60efbc68eccca7aac4678e496
+Filename: pool/trixie/main/binary-all/vayu-apt-config-testing_3+git20241229234038.2500763.trixie_all.deb
+Size: 2648
+MD5sum: b3f06ad4cd22cdf2e0133390fe2a8bde
+SHA1: 48d23e0b0924f4a5f975842f8ec54c946a2589c0
+SHA256: d6a72e033710f2343ff8288c8d6ec8e1fc29abbc720643fa46bc9d2055a508b9
+SHA512: 8ea5270ac42f0e0b08b5c9c5ac533e3bf478cd48378b33942fec448d88d4f7a001019ba30a162ea12f18e71e15f742a8951b9dcbea707d23f9f557b24d418a88
 Description: APT configs for droidian-vayu github testing apt repo
 
 Package: vayu-apt-config-trixie
 Architecture: all
-Version: 1+git20240802203451.551fbc6.trixie
+Version: 2+git20241229233632.ddb96d4.trixie
 Priority: optional
 Section: misc
 Maintainer: droidian-vayu Github Org
@@ -148,47 +148,13 @@ Pre-Depends: apt
 Depends: ca-certificates, vayu-apt-keyrings
 Breaks: vayu-apt-config
 Replaces: vayu-apt-config
-Filename: pool/trixie/main/binary-all/vayu-apt-config-trixie_1+git20240802203451.551fbc6.trixie_all.deb
-Size: 3020
-MD5sum: dd8d06f8fad2c2a221819a99994309ba
-SHA1: 60315273f58c1615af25660d511febfde64d96cc
-SHA256: fdf95ba3717e2ddee3dec6c9dc4692f37fe1b12e9de007048b64d64235e6a7b2
-SHA512: 4617bf2941d1bb2ac17103ef0fc08d4554a530bd719fe5d8943be6a89c167b758317b7c1b5ae52d547b65e9fa99e500710f1118597c7d12ed7c09b30b1e01f9c
+Filename: pool/trixie/main/binary-all/vayu-apt-config-trixie_2+git20241229233632.ddb96d4.trixie_all.deb
+Size: 3100
+MD5sum: 3f4253d89b27d1ab53d6af2608f2c357
+SHA1: 965e12a19c3b826fd0ba423e2fb228accbfbda03
+SHA256: c4b48f2c045eef4cd14d97a90d5948a4e03275f08d7f702584fa2503946af0db
+SHA512: 65359707c1688de1124f23a0a8fc116ab42309c8a8c657b08b111406ce2aff4badb4ae88b683492aadc17518231c0e5145d8e0b73abb936215f22ee6685cdc76
 Description: APT configs for droidian-vayu github trixie apt repo
-
-Package: vayu-apt-config
-Architecture: all
-Version: 0.0.2+git20240714183520.a0f48c6.stable
-Priority: optional
-Section: misc
-Maintainer: droidian-vayu Organization
-Installed-Size: 25
-Pre-Depends: apt
-Depends: ca-certificates
-Filename: pool/trixie/main/binary-all/vayu-apt-config_0.0.2+git20240714183520.a0f48c6.stable_all.deb
-Size: 4120
-MD5sum: bb429dcbb4cca2b5662ad9fe008f884b
-SHA1: defb08f911d417275e3a5a4c8942ee08b2bbc6ab
-SHA256: 4e9298a06cb5d0f79f94715e75ff7e66f675abca7d0f4beb13bb17d11129d472
-SHA512: 89463dd96b619b3bde67b7a6391e248bd413f676d8395715f54ac97cbad757a941d220ac39eab521fd8712250f16cfdc0a9800470abeb4ce0835c4fb18534235
-Description: APT Droidian configs for xiaomi vayu
-
-Package: vayu-apt-keyrings
-Architecture: all
-Version: 2+git20240731225409.75be64d.trixie
-Priority: optional
-Section: misc
-Maintainer: droidian-vayu Github Org
-Installed-Size: 17
-Pre-Depends: apt
-Depends: ca-certificates
-Filename: pool/trixie/main/binary-all/vayu-apt-keyrings_2+git20240731225409.75be64d.trixie_all.deb
-Size: 3896
-MD5sum: d82749b8a2b25e5a08e3a8735495dc0f
-SHA1: 83f78752a46a58c2da230cd07541a2532c575684
-SHA256: f6cb9e04af3b6483b49f5cdf1716da488880d341b6714f6a3b01f24f1df05b24
-SHA512: 0e41afe0f26c59ea0e68897a2b218c2777425995fbe34edfa1ccd3963cb4b89b25f8b2c06e9e564e46326a45f19b676641c88ddc3bafb70aa4ea5b113858558b
-Description: APT keyrings for droidian-vayu Github apt repo
 
 Package: vayu-apt-keyrings
 Architecture: all
