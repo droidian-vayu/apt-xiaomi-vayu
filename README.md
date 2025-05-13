@@ -1,9 +1,9 @@
 # apt-xiaomi-vayu
-Droidian apt community repository for Xiaomi Pocophone X3 Pro - vayu
+Droidian apt community repository for Xiaomi Poco X3 Pro - vayu
 
 ### Tool to manage repo:
-A tool to manage the apt repo was developed:[apt-mgr](https://github.com/berbascum/berb-apt-mgr)
+A tool to manage the apt repo was developed: [apt-mgr](https://github.com/berbascum/berb-apt-mgr)
 
 ## Thanks to
-This repo and the developed tool has been possible thanks to [vacuumbeef](https://github.com/vacuumbeef/) who shared with me a working apt repo configuration ant the instructions to build it.
+This repo and the developed tool has been possible thanks to [vacuumbeef](https://github.com/vacuumbeef/) who shared with me a working apt repo configuration and the instructions to build it.
 
