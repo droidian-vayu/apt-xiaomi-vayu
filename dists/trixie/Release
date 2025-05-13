@@ -1,7 +1,7 @@
 Architectures: all arm64
 Codename: trixie
 Components: main
-Date: Tue, 25 Feb 2025 18:06:37 +0000
+Date: Tue, 13 May 2025 09:37:37 +0000
 Description: xiaomi vayu droidian apt repo for release trixie
 Label: droidian-vayu
 Origin: droidian-vayu
@@ -11,7 +11,7 @@ MD5Sum:
  c6a5909642a1a9fa9254b30821b917d8             1092 Contents-all.gz
  d243147174262d09d0a212b0a6051037            60815 Contents-arm64.bz2
  51bf7b6028e8539fc706c5c3cf9b1940            72570 Contents-arm64.gz
- 5b684ab05089a322a5e06815e46725e4              216 Release
+ 69e66a46b066fb3014ce4fa4dcab7ea1              216 Release
  90730887ea8083b174959aa448621698             7558 main/binary-all/Packages
  c096f08895fe31663adef586ebd58fd0            14414 main/binary-arm64/Packages
 SHA1:
@@ -19,7 +19,7 @@ SHA1:
  2307b4ce0ad9c03654cee28743b0c5773e6e6619             1092 Contents-all.gz
  9ba925722e166204afeea3d1da7974374c6504c5            60815 Contents-arm64.bz2
  599ef26f04f0ce44aa136111b26ed927c4a4a079            72570 Contents-arm64.gz
- d816762bca6860968a532da89c6cb3c363e3fd8d              216 Release
+ 1aade11d67b98d4502df2015e2c366740369a43e              216 Release
  3192166ada1d87bba49efc602cead023e5f7e35b             7558 main/binary-all/Packages
  7ac8767f12b65b24cd5bd66010f12750b99d13ac            14414 main/binary-arm64/Packages
 SHA256:
@@ -27,7 +27,7 @@ SHA256:
  091a1733c794424a275323d120a6a2e3c28462c20483b8e3c398014661204cdb             1092 Contents-all.gz
  be5c4637d0cd118576ef4436200f7eed77de38144ce161d21faf5da48e58713a            60815 Contents-arm64.bz2
  19af98ece0069d96dd6b0ecf816a7b7d4181cff86585a507e3132de816f201c6            72570 Contents-arm64.gz
- 52161e4af4624f6398bc855c7b910a31446ebfa47dbd654cedf43a777d742e23              216 Release
+ 4e611b5a523e72930f78f1bab9aaf463be4cb5ba0aa23b1005a855f4c26f2f07              216 Release
  d48840e17934e5afbece25e0e7bda630414412a2c5c8f84acf525636fe65180e             7558 main/binary-all/Packages
  d4b573d4d4b55a8456f96810ec7000dc1441033bd4f11fa52c0c3e148557586e            14414 main/binary-arm64/Packages
 SHA512:
@@ -35,6 +35,6 @@ SHA512:
  08f06f881b64cefbfecdde99eba98d00201cc2d87da6a010a3a098ca06cff93495f36ceb9f59f94eb3e16d522178d7f9818e3e4d24e9b4a0a7eb790f2f42e805             1092 Contents-all.gz
  8dfc237d8ddcf2b293778dcc2885f2715fe5a4c0cff683a7fe51808fb87d32f6db84c7acca1adf34d4eaf2853cb88c1b7dcad75edf4d4a8fec9ed78ce9e1a58d            60815 Contents-arm64.bz2
  79f2cfe3a88088f7734c9de238ca24667edf262ed3193399457c2075eff6cff204017db72023c924e02ed543d9586c9dc0b319fa3b0a4482a24d853f5f938194            72570 Contents-arm64.gz
- 5d462cb908bdac6f7651e9ffcb9aad5d21c7ede67293931446c98b649b5faee229af3852188a9c63a409198e983843c4615c94d847d30aefd9990b1376c53b20              216 Release
+ 665fbeee2a0677bee55c07b190c7157b02dae466d0d2b305674dc113c11e565281f9df79ef8ef1a18bd3b397824e9fff9cdf0a45fd346aa70b9db639900b88cb              216 Release
  5318d5aeb134b0c4ffa06a1c7a9064fa70094c6751185da06dd5935e0358abed8d697c917257760dcf927e77e95f338ac64bde52d74632621d693cc2abac3dab             7558 main/binary-all/Packages
  8ba18619a2a75a0efa6674c100fbeb3e00faa5346b9d43fbe6f787be4c649016adf010412b783bb3170d142e41afa07e52141a873a30e2bd19ba8cd138df23fd            14414 main/binary-arm64/Packages
