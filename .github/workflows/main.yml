@@ -10,7 +10,7 @@ jobs:
   update-repo:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/berbascum/berb-debian-build-essential:trixie-slim-amd64
+      image: ghcr.io/berbascum/berb-debian-devel-build-essential:trixie-slim-amd64
     permissions:
       contents: write
     env:
