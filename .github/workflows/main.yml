@@ -24,13 +24,17 @@ jobs:
 
       - name: Install berb-apt-mgr binary + library
         run: |
-          wget -O /usr/bin/berb-apt-mgr https://raw.githubusercontent.com/berbascum/berb-apt-mgr/refs/heads/main/pkg_rootfs/usr/bin/berb-apt-mgr
-          chmod +x /usr/bin/berb-apt-mgr
+          # wget -O /usr/bin/berb-apt-mgr https://raw.githubusercontent.com/berbascum/berb-apt-mgr/refs/heads/main/pkg_rootfs/usr/bin/berb-apt-mgr
+          # chmod +x /usr/bin/berb-apt-mgr
+          wget -O /tmp/berb-apt-mgr_2.1.0.1_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/berb-apt-mgr_2.1.0.1_all.deb
+          dpkg -i /tmp/berb-apt-mgr_2.1.0.1_all.deb
           mkdir -p /usr/lib/berb-bash-libs
           wget -O /usr/lib/berb-bash-libs/bbl_general_lib_main_1121 https://raw.githubusercontent.com/berbascum/bbl-general-lib/refs/heads/main/pkg_rootfs/usr/lib/berb-bash-libs/bbl_general_lib_main_1121
           wget -O /tmp/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb
           dpkg -i /tmp/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb
           cp /usr/lib/berb-bash-libs/bbl_git_lib_1311 /usr/lib/berb-bash-libs/bbl_git_lib_main_1311
+          wget -O /tmp/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb 
+          dpkg -i /tmp/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb
           
       - name: Import GPG key and setup gpg
         env:
