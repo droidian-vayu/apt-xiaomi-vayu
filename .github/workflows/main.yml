@@ -19,9 +19,14 @@ jobs:
       - name: Install berb-apt-mgr
         run: |
           apt-get update
-          apt-get install -y berb-apt-mgr
+          # apt-get install -y berb-apt-mgr
           # wget -O /usr/bin/berb-apt-mgr https://raw.githubusercontent.com/berbascum/berb-apt-mgr/refs/heads/sid/berb-apt-mgr-bin-main.sh
 
+      - name: Install berb-apt-mgr binary
+        run: |
+          wget -O /usr/bin/berb-apt-mgr https://raw.githubusercontent.com/berbascum/berb-apt-mgr/refs/heads/main/pkg_rootfs/usr/bin/berb-apt-mgr
+          chmod +x /usr/bin/berb-apt-mgr
+    
       - name: Import GPG key and setup gpg
         env:
           GPG_TTY: $(tty)
