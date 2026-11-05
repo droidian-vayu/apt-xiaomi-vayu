@@ -17,6 +17,9 @@ jobs:
     env:
       SCRIPT_CALLER: github
     steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        
       - name: Install berb-apt-mgr
         run: |
           apt-get update
