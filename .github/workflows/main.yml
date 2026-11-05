@@ -10,7 +10,8 @@ jobs:
   update-repo:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/berbascum/berb-debian-devel-build-essential:trixie-slim-amd64
+      # image: ghcr.io/berbascum/berb-debian-devel-build-essential:trixie-slim-amd64
+      image: ghcr.io/droidian-vayu/berb-debian-devel-build-essential:trixie-slim-amd64
     permissions:
       contents: write
     env:
@@ -22,21 +23,30 @@ jobs:
           # apt-get install -y berb-apt-mgr
           # wget -O /usr/bin/berb-apt-mgr https://raw.githubusercontent.com/berbascum/berb-apt-mgr/refs/heads/sid/berb-apt-mgr-bin-main.sh
 
-      - name: Install berb-apt-mgr binary + library
-        run: |
+#      - name: Install berb-apt-mgr binary + library
+#        run: |
           # wget -O /usr/bin/berb-apt-mgr https://raw.githubusercontent.com/berbascum/berb-apt-mgr/refs/heads/main/pkg_rootfs/usr/bin/berb-apt-mgr
           # chmod +x /usr/bin/berb-apt-mgr
+#          mkdir -p /usr/lib/berb-bash-libs
+#          wget -O /usr/lib/berb-bash-libs/bbl_general_lib_main_1121 https://raw.githubusercontent.com/berbascum/bbl-general-lib/refs/heads/main/pkg_rootfs/usr/lib/berb-bash-libs/bbl_general_lib_main_1121
+#          wget -O /tmp/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb
+#          dpkg -i /tmp/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb
+#          cp /usr/lib/berb-bash-libs/bbl_git_lib_1311 /usr/lib/berb-bash-libs/bbl_git_lib_main_1311
+#          wget -O /tmp/bbl-git-lib_1.2.3.1+git20250103015602.aa32fee.testing_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/1cc885c216f80d27c82b66c64880e9a2f21ba5f8/pool/testing/main/binary-all/bbl-git-lib_1.2.3.1+git20250103015602.aa32fee.testing_all.deb
+#          dpkg -i /tmp/bbl-git-lib_1.2.3.1+git20250103015602.aa32fee.testing_all.deb
+#          wget -O /tmp/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb 
+#          dpkg -i /tmp/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb
+#          wget -O /tmp/berb-apt-mgr_2.1.0.1_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/berb-apt-mgr_2.1.0.1_all.deb
+#          dpkg -i /tmp/berb-apt-mgr_2.1.0.1_all.deb
+          
+      - name: Install berb-apt-mgr binary + library from droidian-vayu
+        run: |
           mkdir -p /usr/lib/berb-bash-libs
-          wget -O /usr/lib/berb-bash-libs/bbl_general_lib_main_1121 https://raw.githubusercontent.com/berbascum/bbl-general-lib/refs/heads/main/pkg_rootfs/usr/lib/berb-bash-libs/bbl_general_lib_main_1121
-          wget -O /tmp/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb
-          dpkg -i /tmp/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb
+          dpkg -i berb-apt-mgr/bbl-git-lib_1.3.1.1+git20250821094921.72a7cb5.berb.develop.sid_all.deb
           cp /usr/lib/berb-bash-libs/bbl_git_lib_1311 /usr/lib/berb-bash-libs/bbl_git_lib_main_1311
-          wget -O /tmp/bbl-git-lib_1.2.3.1+git20250103015602.aa32fee.testing_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/1cc885c216f80d27c82b66c64880e9a2f21ba5f8/pool/testing/main/binary-all/bbl-git-lib_1.2.3.1+git20250103015602.aa32fee.testing_all.deb
-          dpkg -i /tmp/bbl-git-lib_1.2.3.1+git20250103015602.aa32fee.testing_all.deb
-          wget -O /tmp/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb 
-          dpkg -i /tmp/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb
-          wget -O /tmp/berb-apt-mgr_2.1.0.1_all.deb https://github.com/berbascum/berb-apt-git-repo/raw/b963d961ecaaacd1d8d40baed583e9b7314c10a9/pool/testing/main/binary-all/berb-apt-mgr_2.1.0.1_all.deb
-          dpkg -i /tmp/berb-apt-mgr_2.1.0.1_all.deb
+          dpkg -i berb-apt-mgr/bbl-git-lib_1.2.3.1+git20250103015602.aa32fee.testing_all.deb
+          dpkg -i berb-apt-mgr/bbl-general-lib_1.1.1.1+git20250821072256.41688be.berb.develop.testing_all.deb
+          dpkg -i berb-apt-mgr/berb-apt-mgr_2.1.0.1_all.deb
           
       - name: Import GPG key and setup gpg
         env:
