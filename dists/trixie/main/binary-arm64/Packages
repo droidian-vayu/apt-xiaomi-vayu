@@ -279,6 +279,26 @@ Description: debug symbols for droidian-camera2
 Build-Ids: 0efaf92c87da5986c99f5251e92466efc0a4f36d 592ea275f532308dd6e6371ab8856da7a205859a 5a6e98d4b05a62303f475bc707365c7b0667ad52 716af49701da405b8c38faea9aa829ee4819bc97 a2944c7666da571318ab7363a71c223db1585a13
 X-Droidian-Vcs-Revision: bc5b73224e15e07be7d5e4fb6f2f02228d849dd8
 
+Package: droidian-camera2-dbgsym
+Architecture: arm64
+Version: 17+git20261107125120.80e6195.next.hybris.compat
+Auto-Built-Package: debug-symbols
+Priority: optional
+Section: debug
+Source: droidian-camera2
+Maintainer: Alexander Rutz <alex@familyrutz.com>
+Installed-Size: 3296
+Depends: droidian-camera2 (= 17+git20261107125120.80e6195.next.hybris.compat)
+Filename: pool/trixie/main/binary-arm64/droidian-camera2-dbgsym_17+git20261107125120.80e6195.next.hybris.compat_arm64.deb
+Size: 2992296
+MD5sum: 9f1aa3ce8022771238ba383659ee4cb6
+SHA1: 554b651d1b92ea13e7dc980b82d2bfd659308dcd
+SHA256: c64baa47674fefa39806762a76446420678edb9fde8da3bfd3bec64a8824af2e
+SHA512: ddde42bdf5c4729413e107e28d8b4f5b1f58c75d8cc08e6d55506be2c75097e005c861195c4f891e17d8aae136bb3522fd86cfcd8291581262f88e66a68048fa
+Description: debug symbols for droidian-camera2
+Build-Ids: 0efaf92c87da5986c99f5251e92466efc0a4f36d 7064c455782ae5e0c924aab92e8994a86fff421f 716af49701da405b8c38faea9aa829ee4819bc97 8243abdd8fc8d0e33564bdcb83a403c7ec6a149f e06bd02b067b6be753483dcdd25951f07aba66bc
+X-Droidian-Vcs-Revision: 80e6195d378b5cb7209f37c3d58030a5d7ff9a49
+
 Package: droidian-camera2
 Architecture: arm64
 Version: 17+git20261106233809.bc5b732.next.hybris.compat
@@ -297,6 +317,25 @@ Homepage: https://github.com/droidian/droidian-camera
 Description: Qt6 camera app using libhybris to access Android camera HAL
   Provides camera support through libhybris and Qt6.
 X-Droidian-Vcs-Revision: bc5b73224e15e07be7d5e4fb6f2f02228d849dd8
+
+Package: droidian-camera2
+Architecture: arm64
+Version: 17+git20261107125120.80e6195.next.hybris.compat
+Priority: optional
+Section: graphics
+Maintainer: Alexander Rutz <alex@familyrutz.com>
+Installed-Size: 670
+Depends: libavcodec61 (>= 7:7.0), libavformat61 (>= 7:7.0), libavutil59 (>= 7:7.0), libc6 (>= 2.34), libgcc-s1 (>= 3.0), libglib2.0-0t64 (>= 2.26.0), libhybris (>= 0.0.5.53), libmedia1 (>= 0.0.5.53), libqt6core6t64 (>= 6.8.2), libqt6gui6 (>= 6.4.0), libqt6multimedia6 (>= 6.6.1), libqt6opengl6 (>= 6.1.2), libqt6qml6 (>= 6.6.0), libqt6quick6 (>= 6.6.0), libqt6sensors6 (>= 6.6.1), libquirc1 (>= 1.2), libstdc++6 (>= 11), libswscale8 (>= 7:7.0), libqt6core6, libqt6quickcontrols2-6, libglib2.0-0, qml6-module-qtquick-layouts, qml6-module-qtquick-controls, qml6-module-qtquick-effects, qml6-module-qtmultimedia, qml6-module-qtquick-templates, qml6-module-qt-labs-platform, fonts-material-design-icons-iconfont
+Filename: pool/trixie/main/binary-arm64/droidian-camera2_17+git20261107125120.80e6195.next.hybris.compat_arm64.deb
+Size: 145712
+MD5sum: 4ac3f5554479a5159aedd8091736d1bd
+SHA1: 8faddeccd40b12f45e8e7fbf64d1fead4872a65a
+SHA256: f3ec3e0220c23f0757c3dd20743a6d1bbfa7f97e65f71e285ae36b078b4f48dc
+SHA512: 5d763a982461646867dd6f99724202b5f7ee54ea394cf65eb91b4a552a65d3eac92c0866af28b3836d50b2ae56553765fd06007adb4e866274843e247e0531f7
+Homepage: https://github.com/droidian/droidian-camera
+Description: Qt6 camera app using libhybris to access Android camera HAL
+  Provides camera support through libhybris and Qt6.
+X-Droidian-Vcs-Revision: 80e6195d378b5cb7209f37c3d58030a5d7ff9a49
 
 Package: libavcodec62
 Architecture: arm64
